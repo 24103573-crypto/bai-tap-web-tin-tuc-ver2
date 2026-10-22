@@ -1,0 +1,307 @@
+
+{
+  "menu": [
+    {
+      "id": "home",
+      "title": "Trang chủ",
+      "url": "/",
+      "type": "home"
+    },
+    {
+      "id": "moi-nhat",
+      "title": "Mới nhất",
+      "url": "https://dantri.com.vn/moi-nhat.htm",
+      "type": "category"
+    },
+    {
+      "id": "the-gioi",
+      "title": "Thế giới",
+      "url": "https://dantri.com.vn/the-gioi.htm",
+      "type": "category",
+      "children": [
+        {
+          "id": "tin-the-gioi",
+          "title": "Tin thế giới",
+          "url": "https://dantri.com.vn/the-gioi.htm",
+          "type": "category"
+        },
+        {
+          "id": "phan-tich-quoc-te",
+          "title": "Phân tích quốc tế",
+          "url": "https://dantri.com.vn/the-gioi.htm",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "thoi-su",
+      "title": "Thời sự",
+      "url": "https://dantri.com.vn/thoi-su.htm",
+      "type": "category",
+      "children": [
+        {
+          "id": "chinh-tri",
+          "title": "Chính trị",
+          "url": "https://dantri.com.vn/thoi-su.htm",
+          "type": "category"
+        },
+        {
+          "id": "giao-thong",
+          "title": "Giao thông",
+          "url": "https://dantri.com.vn/thoi-su.htm",
+          "type": "category"
+        },
+        {
+          "id": "moi-truong",
+          "title": "Môi trường",
+          "url": "https://dantri.com.vn/thoi-su.htm",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "bat-dong-san",
+      "title": "Bất động sản",
+      "url": "https://dantri.com.vn/bat-dong-san.htm",
+      "type": "category",
+      "children": [
+        {
+          "id": "thi-truong",
+          "title": "Thị trường",
+          "url": "https://dantri.com.vn/bat-dong-san.htm",
+          "type": "category"
+        },
+        {
+          "id": "du-an",
+          "title": "Dự án",
+          "url": "https://dantri.com.vn/bat-dong-san.htm",
+          "type": "category"
+        }
+      ]
+    },
+    {
+      "id": "kinh-doanh",
+      "title": "Kinh doanh",
+      "url": "https://dantri.com.vn/kinh-doanh.htm",
+      "type": "category"
+    },
+    {
+      "id": "xa-hoi",
+      "title": "Xã hội",
+      "url": "https://dantri.com.vn/xa-hoi.htm",
+      "type": "category"
+    },
+    {
+      "id": "phap-luat",
+      "title": "Pháp luật",
+      "url": "https://dantri.com.vn/phap-luat.htm",
+      "type": "category"
+    },
+    {
+      "id": "giao-duc",
+      "title": "Giáo dục",
+      "url": "https://dantri.com.vn/giao-duc.htm",
+      "type": "category"
+    },
+    {
+      "id": "suc-khoe",
+      "title": "Sức khỏe",
+      "url": "https://dantri.com.vn/suc-khoe.htm",
+      "type": "category"
+    },
+    {
+      "id": "the-thao",
+      "title": "Thể thao",
+      "url": "https://dantri.com.vn/the-thao.htm",
+      "type": "category"
+    },
+    {
+      "id": "van-hoa",
+      "title": "Văn hóa",
+      "url": "https://dantri.com.vn/van-hoa.htm",
+      "type": "category"
+    },
+    {
+      "id": "cong-nghe",
+      "title": "Công nghệ",
+      "url": "https://dantri.com.vn/cong-nghe.htm",
+      "type": "category"
+    },
+    {
+      "id": "doi-song",
+      "title": "Đời sống",
+      "url": "https://dantri.com.vn/doi-song.htm",
+      "type": "category"
+    },
+    {
+      "id": "du-lich",
+      "title": "Du lịch",
+      "url": "https://dantri.com.vn/du-lich.htm",
+      "type": "category"
+    },
+    {
+      "id": "tam-long-nhan-ai",
+      "title": "Tấm lòng nhân ái",
+      "url": "https://dantri.com.vn/tam-long-nhan-ai.htm",
+      "type": "category"
+    }
+  ],
+  "posts": [
+    {
+      "id": "dtri-sample-202610230001",
+      "title": "Hà Nội hướng tới phát triển đô thị xanh và giao thông bền vững",
+      "slug": "ha-noi-phat-trien-do-thi-xanh-giao-thong-ben-vung",
+      "excerpt": "Phát triển không gian xanh, nâng cao chất lượng giao thông công cộng và cải thiện môi trường sống là những vấn đề quan trọng trong quá trình phát triển đô thị.",
+      "content": "Quá trình đô thị hóa đặt ra nhiều yêu cầu mới đối với công tác quy hoạch, xây dựng hạ tầng và bảo vệ môi trường tại các thành phố lớn. Việc phát triển đô thị theo hướng bền vững cần có sự phối hợp giữa cơ quan quản lý, doanh nghiệp và người dân.\n\nMột trong những giải pháp được quan tâm là mở rộng không gian xanh, nâng cao chất lượng hệ thống giao thông công cộng và khuyến khích các phương thức di chuyển thân thiện với môi trường. Những giải pháp này có thể góp phần giảm áp lực giao thông và cải thiện chất lượng không khí.\n\nBên cạnh đầu tư hạ tầng, việc nâng cao ý thức cộng đồng và sử dụng hiệu quả quỹ đất cũng có vai trò quan trọng. Các chương trình phát triển đô thị cần được triển khai đồng bộ, phù hợp với điều kiện thực tế và nhu cầu của người dân.",
+      "thumbnail": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Thời sự",
+      "publishedAt": "2026-10-23 08:30",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/thoi-su.htm"
+    },
+    {
+      "id": "dtri-sample-202610230002",
+      "title": "Thương mại quốc tế trước những thay đổi của kinh tế toàn cầu",
+      "slug": "thuong-mai-quoc-te-thay-doi-kinh-te-toan-cau",
+      "excerpt": "Những thay đổi về chuỗi cung ứng, chính sách thương mại và nhu cầu tiêu dùng đang tạo ra cả cơ hội lẫn thách thức cho các nền kinh tế.",
+      "content": "Kinh tế toàn cầu luôn chịu tác động từ nhiều yếu tố như chính sách thương mại, biến động thị trường, công nghệ và nhu cầu tiêu dùng. Những thay đổi này khiến doanh nghiệp cần thường xuyên đánh giá lại chiến lược kinh doanh và khả năng thích ứng.\n\nĐối với các quốc gia có độ mở kinh tế cao, việc đa dạng hóa thị trường xuất khẩu và nâng cao năng lực sản xuất có ý nghĩa quan trọng. Doanh nghiệp cũng cần chú trọng chất lượng sản phẩm, tiêu chuẩn quốc tế và khả năng truy xuất nguồn gốc.\n\nTrong dài hạn, nâng cao năng suất lao động, đầu tư vào công nghệ và phát triển nguồn nhân lực sẽ góp phần tăng sức cạnh tranh. Đây là những yếu tố cần được quan tâm trong quá trình hội nhập kinh tế quốc tế.",
+      "thumbnail": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Thế giới",
+      "publishedAt": "2026-10-23 07:45",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/the-gioi.htm"
+    },
+    {
+      "id": "dtri-sample-202610230003",
+      "title": "Thị trường bất động sản và yêu cầu minh bạch thông tin",
+      "slug": "thi-truong-bat-dong-san-minh-bach-thong-tin",
+      "excerpt": "Minh bạch pháp lý, giá bán và tiến độ dự án là những yếu tố quan trọng giúp người mua đánh giá rủi ro khi tham gia thị trường bất động sản.",
+      "content": "Thị trường bất động sản có mối liên hệ chặt chẽ với hoạt động đầu tư, tín dụng và nhu cầu nhà ở. Thông tin đầy đủ về pháp lý, quy hoạch và tiến độ dự án giúp người mua đưa ra quyết định phù hợp hơn.\n\nNgười có nhu cầu mua nhà nên tìm hiểu kỹ hồ sơ pháp lý, quyền sử dụng đất, điều kiện ký kết hợp đồng và các khoản chi phí liên quan. Việc tham khảo nhiều nguồn thông tin đáng tin cậy cũng giúp hạn chế rủi ro từ những quảng cáo thiếu căn cứ.\n\nVề phía doanh nghiệp, công khai thông tin và thực hiện đúng cam kết là những yếu tố quan trọng để xây dựng niềm tin. Một thị trường phát triển ổn định cần có sự phối hợp giữa cơ quan quản lý, chủ đầu tư và người tham gia giao dịch.",
+      "thumbnail": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Bất động sản",
+      "publishedAt": "2026-10-22 16:20",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/bat-dong-san.htm"
+    },
+    {
+      "id": "dtri-sample-202610230004",
+      "title": "Doanh nghiệp đẩy mạnh chuyển đổi số trong hoạt động kinh doanh",
+      "slug": "doanh-nghiep-day-manh-chuyen-doi-so",
+      "excerpt": "Ứng dụng công nghệ số có thể giúp doanh nghiệp tối ưu quy trình, quản lý dữ liệu và nâng cao trải nghiệm khách hàng.",
+      "content": "Chuyển đổi số đang trở thành một nội dung được nhiều doanh nghiệp quan tâm trong quá trình nâng cao hiệu quả hoạt động. Các giải pháp công nghệ có thể hỗ trợ quản lý đơn hàng, theo dõi hàng tồn kho và phân tích nhu cầu khách hàng.\n\nTuy nhiên, chuyển đổi số không chỉ là việc đầu tư phần mềm hoặc thiết bị. Doanh nghiệp cần xác định mục tiêu cụ thể, chuẩn hóa quy trình và đào tạo nhân viên để công nghệ được sử dụng hiệu quả.\n\nViệc bảo vệ dữ liệu, kiểm soát quyền truy cập và xây dựng phương án dự phòng cũng rất cần thiết. Khi được triển khai phù hợp, chuyển đổi số có thể tạo nền tảng cho sự phát triển lâu dài của doanh nghiệp.",
+      "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Kinh doanh",
+      "publishedAt": "2026-10-22 14:10",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/kinh-doanh.htm"
+    },
+    {
+      "id": "dtri-sample-202610230005",
+      "title": "Nâng cao ý thức phân loại rác tại nguồn trong cộng đồng",
+      "slug": "nang-cao-y-thuc-phan-loai-rac-tai-nguon",
+      "excerpt": "Phân loại rác tại nguồn là một trong những giải pháp giúp nâng cao hiệu quả tái chế và giảm lượng chất thải cần xử lý.",
+      "content": "Lượng chất thải sinh hoạt gia tăng tạo ra áp lực đối với hệ thống thu gom và xử lý rác tại nhiều địa phương. Phân loại rác ngay từ nơi phát sinh giúp các đơn vị xử lý thuận lợi hơn trong việc tái sử dụng vật liệu và hạn chế chất thải ra môi trường.\n\nCác hộ gia đình có thể bắt đầu bằng việc tách riêng những loại rác có khả năng tái chế, chất thải thực phẩm và các nhóm chất thải khác theo hướng dẫn tại địa phương. Việc bố trí thùng chứa phù hợp và duy trì thói quen phân loại cũng góp phần nâng cao hiệu quả thực hiện.\n\nĐể chương trình đạt kết quả tốt, cần có hướng dẫn rõ ràng, hệ thống thu gom phù hợp và sự phối hợp giữa chính quyền, đơn vị dịch vụ và người dân.",
+      "thumbnail": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Thời sự",
+      "publishedAt": "2026-10-22 10:00",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/thoi-su.htm"
+    },
+    {
+      "id": "dtri-sample-202610230006",
+      "title": "Đổi mới phương pháp dạy học gắn với năng lực thực tiễn",
+      "slug": "doi-moi-phuong-phap-day-hoc-nang-luc-thuc-tien",
+      "excerpt": "Kết hợp kiến thức nền tảng với hoạt động thực hành giúp học sinh phát triển tư duy, kỹ năng giải quyết vấn đề và khả năng hợp tác.",
+      "content": "Đổi mới phương pháp dạy học hướng tới việc giúp người học chủ động tiếp nhận kiến thức và vận dụng kiến thức vào các tình huống thực tế. Bên cạnh việc giảng giải lý thuyết, giáo viên có thể tổ chức hoạt động thảo luận, dự án nhóm và thực hành.\n\nNhững hoạt động này tạo điều kiện để học sinh rèn luyện tư duy phản biện, kỹ năng giao tiếp và khả năng làm việc cùng người khác. Việc đánh giá kết quả học tập cũng cần xem xét cả quá trình học tập, mức độ tiến bộ và khả năng vận dụng kiến thức.\n\nĐể triển khai hiệu quả, nhà trường cần quan tâm đến điều kiện cơ sở vật chất, học liệu và công tác bồi dưỡng giáo viên. Sự phối hợp giữa gia đình và nhà trường cũng góp phần tạo môi trường học tập tích cực.",
+      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Giáo dục",
+      "publishedAt": "2026-10-21 15:30",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/giao-duc.htm"
+    },
+    {
+      "id": "dtri-sample-202610230007",
+      "title": "Chủ động chăm sóc sức khỏe từ những thói quen hằng ngày",
+      "slug": "chu-dong-cham-soc-suc-khoe-thoi-quen-hang-ngay",
+      "excerpt": "Duy trì chế độ ăn uống cân bằng, vận động phù hợp và ngủ đủ giấc góp phần nâng cao sức khỏe thể chất và tinh thần.",
+      "content": "Chăm sóc sức khỏe cần được thực hiện thường xuyên thông qua những thói quen phù hợp với độ tuổi và tình trạng của mỗi người. Chế độ ăn đa dạng, cung cấp đủ dưỡng chất là một trong những nền tảng quan trọng.\n\nBên cạnh dinh dưỡng, hoạt động thể chất thường xuyên và thời gian nghỉ ngơi hợp lý giúp cơ thể duy trì trạng thái hoạt động ổn định. Mỗi người cũng nên chú ý đến sức khỏe tinh thần, cân bằng giữa công việc, học tập và thời gian thư giãn.\n\nKhám sức khỏe định kỳ và trao đổi với nhân viên y tế khi có dấu hiệu bất thường là những việc nên được quan tâm. Thông tin sức khỏe cần được tham khảo từ các nguồn đáng tin cậy và không thay thế tư vấn y tế chuyên môn.",
+      "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Sức khỏe",
+      "publishedAt": "2026-10-21 11:15",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/suc-khoe.htm"
+    },
+    {
+      "id": "dtri-sample-202610230008",
+      "title": "Thể thao học đường góp phần xây dựng lối sống năng động",
+      "slug": "the-thao-hoc-duong-loi-song-nang-dong",
+      "excerpt": "Các hoạt động thể thao trong trường học tạo cơ hội rèn luyện thể lực, tinh thần đồng đội và thói quen vận động cho học sinh.",
+      "content": "Thể thao học đường có vai trò quan trọng trong việc hỗ trợ phát triển thể chất và hình thành lối sống tích cực. Những hoạt động như chạy bộ, bóng đá, cầu lông và các trò chơi vận động giúp học sinh có thêm cơ hội rèn luyện sức khỏe.\n\nThông qua hoạt động tập thể, học sinh có thể phát triển tinh thần hợp tác, tính kỷ luật và khả năng tôn trọng quy tắc chung. Việc lựa chọn môn thể thao phù hợp cũng giúp các em duy trì hứng thú với hoạt động thể chất.\n\nNhà trường cần tổ chức hoạt động phù hợp với điều kiện cơ sở vật chất và bảo đảm an toàn. Gia đình có thể khuyến khích trẻ vận động thường xuyên để hình thành thói quen lành mạnh.",
+      "thumbnail": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Thể thao",
+      "publishedAt": "2026-10-21 09:40",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/the-thao.htm"
+    },
+    {
+      "id": "dtri-sample-202610230009",
+      "title": "Ứng dụng trí tuệ nhân tạo mở ra nhiều cơ hội cho doanh nghiệp",
+      "slug": "ung-dung-tri-tue-nhan-tao-co-hoi-doanh-nghiep",
+      "excerpt": "Trí tuệ nhân tạo có thể hỗ trợ phân tích dữ liệu, tự động hóa một số quy trình và nâng cao khả năng phục vụ khách hàng.",
+      "content": "Trí tuệ nhân tạo đang được ứng dụng trong nhiều lĩnh vực như dịch vụ khách hàng, phân tích dữ liệu, quản lý vận hành và hỗ trợ sáng tạo nội dung. Các công cụ này có thể giúp xử lý những công việc lặp lại và cung cấp thông tin phục vụ quá trình ra quyết định.\n\nDù có nhiều tiềm năng, việc triển khai trí tuệ nhân tạo cần đi kèm với quy trình kiểm tra chất lượng đầu ra. Doanh nghiệp cần chú ý đến độ chính xác, bảo mật thông tin và nguy cơ thiên lệch trong dữ liệu.\n\nĐào tạo nhân sự và xác định rõ trách nhiệm của người sử dụng là những bước quan trọng. Công nghệ nên được xem là công cụ hỗ trợ con người, với sự giám sát phù hợp đối với các quyết định có ảnh hưởng lớn.",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Công nghệ",
+      "publishedAt": "2026-10-20 16:00",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/cong-nghe.htm"
+    },
+    {
+      "id": "dtri-sample-202610230010",
+      "title": "Khám phá những điểm đến thiên nhiên cho hành trình cuối tuần",
+      "slug": "kham-pha-diem-den-thien-nhien-cuoi-tuan",
+      "excerpt": "Những chuyến đi ngắn ngày đến vùng núi, hồ và khu sinh thái giúp du khách thư giãn và tìm hiểu thêm về thiên nhiên địa phương.",
+      "content": "Du lịch ngắn ngày là lựa chọn phù hợp với những người muốn thay đổi không khí sau thời gian học tập và làm việc. Các điểm đến thiên nhiên mang lại cơ hội đi bộ, ngắm cảnh và tìm hiểu đời sống văn hóa tại địa phương.\n\nTrước chuyến đi, du khách nên tìm hiểu thời tiết, phương tiện di chuyển, nơi lưu trú và các quy định tại điểm tham quan. Chuẩn bị lịch trình hợp lý giúp hạn chế phát sinh chi phí và bảo đảm an toàn.\n\nDu lịch có trách nhiệm cũng đòi hỏi mỗi người giữ gìn vệ sinh, hạn chế đồ nhựa dùng một lần và tôn trọng cảnh quan tự nhiên. Việc lựa chọn dịch vụ địa phương phù hợp có thể góp phần hỗ trợ sinh kế cộng đồng.",
+      "thumbnail": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Du lịch",
+      "publishedAt": "2026-10-20 13:25",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/du-lich.htm"
+    },
+    {
+      "id": "dtri-sample-202610230011",
+      "title": "Gìn giữ giá trị văn hóa truyền thống trong đời sống hiện đại",
+      "slug": "gin-giu-gia-tri-van-hoa-truyen-thong",
+      "excerpt": "Việc bảo tồn di sản, phát huy nghệ thuật truyền thống và giáo dục thế hệ trẻ góp phần duy trì bản sắc văn hóa dân tộc.",
+      "content": "Văn hóa truyền thống được hình thành và lưu truyền qua nhiều thế hệ, thể hiện trong ngôn ngữ, phong tục, nghệ thuật và các hoạt động cộng đồng. Những giá trị này góp phần tạo nên bản sắc riêng của mỗi địa phương và dân tộc.\n\nTrong bối cảnh công nghệ phát triển, việc số hóa tư liệu, giới thiệu di sản trên các nền tảng trực tuyến và tổ chức hoạt động trải nghiệm có thể giúp nhiều người tiếp cận văn hóa thuận lợi hơn.\n\nBảo tồn văn hóa cần đi đôi với việc phát huy giá trị trong đời sống hiện đại. Sự tham gia của cộng đồng, cơ sở giáo dục và các tổ chức văn hóa có ý nghĩa quan trọng trong việc truyền lại những giá trị tốt đẹp cho thế hệ sau.",
+      "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Văn hóa",
+      "publishedAt": "2026-10-19 10:45",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/van-hoa.htm"
+    },
+    {
+      "id": "dtri-sample-202610230012",
+      "title": "Lan tỏa tinh thần sẻ chia thông qua các hoạt động cộng đồng",
+      "slug": "lan-toa-tinh-than-se-chia-hoat-dong-cong-dong",
+      "excerpt": "Các chương trình hỗ trợ cộng đồng góp phần kết nối những tấm lòng thiện nguyện và giúp đỡ những người đang gặp khó khăn.",
+      "content": "Những hoạt động hỗ trợ cộng đồng thể hiện tinh thần tương thân tương ái và sự quan tâm giữa các thành viên trong xã hội. Các chương trình thiện nguyện có thể tập trung vào giáo dục, chăm sóc sức khỏe, hỗ trợ sinh kế hoặc khắc phục khó khăn sau thiên tai.\n\nĐể hoạt động hỗ trợ đạt hiệu quả, việc xác định đúng nhu cầu, công khai nguồn lực và theo dõi kết quả triển khai là rất cần thiết. Sự phối hợp giữa tổ chức thiện nguyện, chính quyền địa phương và người dân giúp nguồn hỗ trợ đến đúng đối tượng.\n\nBên cạnh hỗ trợ vật chất, việc tạo cơ hội học tập, nâng cao kỹ năng và phát triển sinh kế lâu dài cũng có thể giúp cộng đồng cải thiện điều kiện sống. Những hành động thiết thực và bền vững góp phần xây dựng môi trường sống nhân văn hơn.",
+      "thumbnail": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=80",
+      "author": "Ban biên tập",
+      "category": "Tấm lòng nhân ái",
+      "publishedAt": "2026-10-18 08:15",
+      "source": "dantri.com.vn",
+      "url": "https://dantri.com.vn/tam-long-nhan-ai.htm"
+    }
+  ]
+}
