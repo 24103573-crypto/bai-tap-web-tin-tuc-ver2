@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crawler tin tức - Tin Tức Mỗi Ngày</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="crawler.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="logo">TIN TỨC<span> MỖI NGÀY</span></a>
+      <a href="./" class="crawler-link">← Trang chủ</a>
+    </div>
+  </header>
+
+  <main class="container crawler-page">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">CÔNG CỤ HỌC TẬP</p>
+        <h1>Crawler tin tức Dân Trí</h1>
+      </div>
+    </div>
+
+    <p class="excerpt">
+      Nhập đường dẫn một bài báo để thử trích xuất thông tin.
+      Sau khi kiểm tra, bạn có thể lưu bài viết vào LocalStorage.
+    </p>
+
+    <form id="crawlerForm" class="crawler-form">
+      <label for="articleURL"><strong>URL bài viết Dân Trí</strong></label>
+      <input
+        id="articleURL"
+        name="articleURL"
+        type="url"
+        placeholder="https://dantri.com.vn/..."
+        required
+      >
+
+      <button id="crawlButton" type="submit" class="crawler-submit">
+        Lấy dữ liệu bài viết
+      </button>
+    </form>
+
+    <p id="crawlerStatus" class="status-message" role="status"></p>
+
+    <!-- Kết quả được tạo từ crawler.js -->
+    <section id="previewSection" hidden>
+      <h2 class="section-title">Xem trước bài viết</h2>
+
+      <div id="crawlerPreview" class="detail-content"></div>
+
+      <div class="crawler-actions">
+        <button id="saveButton" type="button" class="crawler-submit">
+          Lưu bài viết vào LocalStorage
+        </button>
+        <button id="resetButton" type="button" class="back-button">
+          Xóa kết quả
+        </button>
+      </div>
+    </section>
+
+    <aside class="crawler-note">
+      <h2>Lưu ý khi sử dụng</h2>
+      <ul>
+        <li>Công cụ chỉ chấp nhận URL thuộc tên miền dantri.com.vn.</li>
+        <li>API trung gian có thể không truy cập được hoặc bị giới hạn.</li>
+        <li>Chỉ lưu nội dung bạn có quyền sử dụng; hãy ghi nhận nguồn bài viết.</li>
+        <li>Dữ liệu được lưu trong LocalStorage của trình duyệt hiện tại, không được tự động ghi vào file data.json.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="copyright">
+      Công cụ crawler phục vụ mục đích học tập.
+    </div>
+  </footer>
+</body>
+</html>
