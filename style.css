@@ -620,3 +620,89 @@ textarea:focus-visible {
     gap: 20px;
   }
 }
+
+/* =========================
+   9. Giao diện trang crawler
+   ========================= */
+
+.crawler-page {
+  max-width: 900px;
+}
+
+.crawler-form {
+  display: grid;
+  gap: 12px;
+  padding: 24px;
+  margin: 24px 0;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.crawler-form input {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.crawler-form input:focus {
+  border-color: var(--blue);
+  outline: 2px solid #d6e4ff;
+}
+
+.crawler-submit {
+  justify-self: start;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--blue);
+  color: white;
+  font-weight: 700;
+}
+
+.crawler-submit:hover {
+  background: var(--dark-blue);
+}
+
+.crawler-submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.crawler-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 32px;
+}
+
+.crawler-note {
+  padding: 20px 24px;
+  margin: 30px 0;
+  background: var(--light-blue);
+  border-radius: 12px;
+}
+
+.crawler-note h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.crawler-note li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .crawler-form {
+    padding: 16px;
+  }
+
+  .crawler-submit,
+  .crawler-actions .back-button {
+    width: 100%;
+    text-align: center;
+  }
+}
