@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website tin tức đơn giản sử dụng HTML, CSS và JavaScript thuần.">
+  <title>Tin Tức Mỗi Ngày</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Phần đầu trang -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./" class="logo" id="homeLogo">TIN TỨC<span> MỖI NGÀY</span></a>
+
+      <button id="menuToggle" class="menu-toggle"
+              aria-label="Mở hoặc đóng menu" aria-expanded="false">
+        ☰ Danh mục
+      </button>
+
+      <a href="crawler.html" class="crawler-link">+ Thêm tin tức</a>
+    </div>
+
+    <!-- Menu được tạo tự động từ data.json / LocalStorage -->
+    <nav id="navbar" class="navbar" aria-label="Danh mục tin tức">
+      <ul id="navMenu" class="nav-menu"></ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Thông báo khi tải dữ liệu hoặc xảy ra lỗi -->
+    <p id="statusMessage" class="status-message" role="status">
+      Đang tải dữ liệu...
+    </p>
+
+    <!-- Khu vực danh sách tin -->
+    <section id="listingView">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CẬP NHẬT MỖI NGÀY</p>
+          <h1 id="pageHeading">Tin tức mới nhất</h1>
+        </div>
+        <span id="postCount" class="post-count"></span>
+      </div>
+
+      <!-- Một bài lớn bên trái và hai bài nhỏ bên phải -->
+      <section id="featuredSection" class="featured-layout"
+               aria-label="Bài viết nổi bật">
+        <div id="featuredMain"></div>
+        <div id="featuredSide" class="featured-side"></div>
+      </section>
+
+      <!-- Danh sách các bài còn lại, mới nhất trước -->
+      <section class="latest-section">
+        <h2 class="section-title">Tin mới cập nhật</h2>
+        <div id="postList" class="post-list"></div>
+      </section>
+    </section>
+
+    <!-- Khu vực chi tiết bài viết, ban đầu được ẩn -->
+    <article id="detailView" class="detail-view" hidden>
+      <button id="backButton" class="back-button" type="button">
+        ← Quay lại danh sách
+      </button>
+      <div id="articleDetail"></div>
+    </article>
+  </main>
+
+  <!-- Chân trang -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2>Tin Tức Mỗi Ngày</h2>
+        <p>Website tin tức phục vụ mục đích học tập và thực hành lập trình web.</p>
+      </div>
+
+      <div>
+        <h3>Liên kết nhanh</h3>
+        <a href="./">Trang chủ</a>
+        <a href="crawler.html">Thêm bài viết</a>
+      </div>
+
+      <div>
+        <h3>Danh mục tin</h3>
+        <div id="footerCategories"></div>
+      </div>
+
+      <div>
+        <h3>Kết nối</h3>
+        <p>Facebook · YouTube · Zalo</p>
+        <p>Email: contact@example.com</p>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © <span id="currentYear"></span> Tin Tức Mỗi Ngày.
+      Sản phẩm phục vụ bài tập lớn.
+    </div>
+  </footer>
+</body>
+</html>
