@@ -153,19 +153,29 @@ async function initializeData() {
 // =============================================
 
 // Tạo một mục menu và các mục con bằng đệ quy.
+
 function createMenuItem(category) {
   const li = document.createElement("li");
   li.className = "nav-item";
 
   const link = document.createElement("a");
   link.className = "nav-link";
-  link.href = "#";
   link.textContent = category.title || "Chuyên mục";
+
+  // Xử lý các liên kết dẫn ra website bên ngoài.
+  if (category.type === "external") {
+    link.href = category.url;
+    li.appendChild(link);
+    return li;
+  }
+
+  // Các mục menu nội bộ của website.
+  link.href = "#";
 
   link.addEventListener("click", (event) => {
     event.preventDefault();
 
-    // Nếu có menu con, lần bấm đầu trên mobile sẽ mở menu.
+    // Trên điện thoại, lần bấm đầu mở menu con.
     if (
       category.children?.length &&
       window.matchMedia("(max-width: 600px)").matches &&
@@ -180,7 +190,6 @@ function createMenuItem(category) {
 
     currentPostId = null;
 
-    // Đưa giao diện về danh sách nếu đang ở trang chi tiết.
     showListingView();
 
     document.querySelectorAll(".nav-link").forEach((item) => {
@@ -194,7 +203,7 @@ function createMenuItem(category) {
 
     renderListing();
 
-    // Đóng menu trên thiết bị di động sau khi chọn chuyên mục.
+    // Đóng menu điện thoại sau khi chọn chuyên mục.
     if (window.matchMedia("(max-width: 600px)").matches) {
       $("navbar").classList.remove("mobile-open");
       $("menuToggle").setAttribute("aria-expanded", "false");
@@ -203,6 +212,7 @@ function createMenuItem(category) {
 
   li.appendChild(link);
 
+  // Tạo menu con nếu có.
   if (Array.isArray(category.children) && category.children.length) {
     const submenu = document.createElement("ul");
     submenu.className = "dropdown";
