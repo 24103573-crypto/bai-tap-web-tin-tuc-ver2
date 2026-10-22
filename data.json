@@ -139,13 +139,21 @@
       "url": "https://dantri.com.vn/du-lich.htm",
       "type": "category"
     },
+
     {
       "id": "tam-long-nhan-ai",
       "title": "Tấm lòng nhân ái",
       "url": "https://dantri.com.vn/tam-long-nhan-ai.htm",
       "type": "category"
+    },
+    {
+      "id": "dt360",
+      "title": "Video DT360",
+      "url": "https://dantri.com.vn/dt360.htm",
+      "type": "external"
     }
-  ],
+  ]
+
   "posts": [
     {
       "id": "dtri-sample-202610230001",
